@@ -8,9 +8,45 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
 }
 
-h1 {
-    font-family: font-family: 'Arima Madurai', cursive;
+/* headings and logo */
+h1, h2 {
     font-weight: 400;
+    color: #0339A6;
+    letter-spacing: 3px;
+  
+
+}
+
+#logo {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+
+}
+
+/* navigation links */
+#menu {
+    font-size: 80%;
+    letter-spacing: 1px;
+}
+   
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 10px 30px;
+    letter-spacing: 1px;
+
+}
+
+
     
+    
+
+}
+
