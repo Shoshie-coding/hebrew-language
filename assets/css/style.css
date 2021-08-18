@@ -44,9 +44,24 @@ h1, h2 {
 
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
 
-    
-    
+}
 
+#menu a:hover {
+    border-bottom: 1px double #F2B84B;
+}
+
+active (
+    border-bottom: 1px double #F2B84B;
+
+)
+
+/* introduction image */
+#introduction-image {
+    height: 100px;
+    width: 50px
 }
 
