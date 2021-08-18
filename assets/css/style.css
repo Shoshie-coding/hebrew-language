@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Montserrat&display=swap');
 
-* {
-    margin:0;
-    padding:0;
-    border: none;
-}
+
+   
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
+    text-align: left;
+    font-weight: 400;
+    font-size: 150%;
 }
 
 /* headings and logo */
 h1, h2 {
-    font-weight: 400;
+    font-weight: 600;
     color: #0339A6;
     letter-spacing: 3px;
   
@@ -32,8 +32,12 @@ h1, h2 {
 
 /* navigation links */
 #menu {
-    font-size: 80%;
+    font-size: 110%;
     letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Arima Madurai', cursive;
+    color: #0339A6;
+
 }
    
 #menu li {
@@ -54,14 +58,33 @@ h1, h2 {
     border-bottom: 1px double #F2B84B;
 }
 
-active (
+active { 
     border-bottom: 1px double #F2B84B;
 
-)
+}
 
 /* introduction image */
 #introduction-image {
-    height: 100px;
-    width: 50px
+    height: auto;
+    max-width: 50px;
+   margin: 50px;
+   padding: 50px;
+    display:flex;
+}
+
+/* main container */
+#main-container {
+    margin:20px;
+    padding:10px;
+    border: none;
+}
+
+
+
+/* first section */
+#first-section {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
 }
 
