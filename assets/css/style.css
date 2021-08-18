@@ -16,6 +16,7 @@ h1, h2 {
     font-weight: 600;
     color: #0339A6;
     letter-spacing: 3px;
+    font-family: 'Arima Madurai', cursive;
   
 
 }
@@ -24,8 +25,8 @@ h1, h2 {
     font-family: 'Arima Madurai', cursive;
     font-size: 250%;
     text-align: center;
-    padding-top: 70px;
-    margin-top: 30px;
+    padding-top: 200px;
+    margin-top: 200px;
     letter-spacing: 2px;
 
 }
@@ -36,14 +37,14 @@ h1, h2 {
     letter-spacing: 1px;
     font-weight: 600;
     font-family: 'Arima Madurai', cursive;
-    color: #0339A6;
+    color: #0339A6;  
 
 }
    
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 10px 30px;
+    margin: 10px 20px 100px 20px;
     letter-spacing: 1px;
 
 }
@@ -51,6 +52,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+    
 
 }
 
@@ -63,28 +65,20 @@ active {
 
 }
 
-/* introduction image */
-#introduction-image {
-    height: auto;
-    max-width: 50px;
-   margin: 50px;
-   padding: 50px;
-    display:flex;
-}
+
 
 /* main container */
 #main-container {
-    margin:20px;
-    padding:10px;
-    border: none;
-}
-
-
-
-/* first section */
-#first-section {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     text-align: left;
+    margin: 10px 50px 0 50px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    max-width: 150%;
+    letter-spacing: 4px;
+
 }
+
 
