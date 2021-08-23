@@ -128,6 +128,16 @@ h1 {
 
 }
 
+#hebrew-alphabet-table
+{
+    max-width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
+    font-weight: 400;
+    font-size: 100%;
+}
+
 /* #top-image {
 
     background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2.jpg);
