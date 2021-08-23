@@ -11,23 +11,25 @@ body {
 }
 
 /* headings and logo */
-h1,
-h2 {
+
+h2, h3 {
     font-weight: 600;
     color: #0339A6;
     letter-spacing: 3px;
     font-family: 'Arima Madurai', cursive;
+    text-align: left;
 
 
 }
 
 h1 {
     font-family: 'Arima Madurai', cursive;
-    font-size: 270%;
+    font-size: 370%;
     text-align: center;
-
     margin-top: 100px;
     letter-spacing: 2px;
+    color: #0339A6;
+
 
 }
 
@@ -85,14 +87,44 @@ h1 {
 #main-container {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    text-align: justify;
+    text-align: left;
     margin: 10px 50px 0 50px;
-    padding: 300px 300px 300px 300px;
+    padding: 80px 300px 300px 300px;
     border: none;
     max-width: 150%;
     letter-spacing: 2px;
     line-height: 1.50;
+    height: 100%;
+    width: auto;
+    
+}
 
+/* main image */
+#main-image {
+    background-color:white;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 80px 300px 100px 300px;
+    border: none;
+    max-width: 100px;
+    height: auto;
+    border-radius: 30px;
+  
+
+}
+
+#hebrew-alphabet-introduction {
+    width: 70%;
+    text-align: right;
+    margin-right: 30px;
+
+}
+
+#manuscript-picture {
+    width: 70%;
+    float: left;
+    margin-right: 30px;
+    
 
 }
 
