@@ -1,4 +1,31 @@
+Instructions how to write a readme file
+
+Headings
+
+# Heading 1
+## Heading 2
+### Heading 3
+
+
+Lists 
+
+* List using asterisks 
+1. A numbered list
+- bullet point list
++ same effect with plus sign
+
+Links
+
+[Text for link](https://www.google.ie/)
+
+Images
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+
+
+
+
 
 Welcome Cristina Onea,
 

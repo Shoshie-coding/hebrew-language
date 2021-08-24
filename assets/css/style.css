@@ -102,13 +102,12 @@ h1 {
 /* main image */
 #main-image {
     background-color:white;
-    text-align: center;
-    margin: 10px auto 10px auto;
-    padding: 80px 300px 100px 300px;
+    text-align: right;
+    margin-right: 30px;
     border: none;
-    max-width: 100px;
-    height: auto;
-    border-radius: 30px;
+    width: 70%;
+    float: left;
+    
   
 
 }
@@ -130,12 +129,11 @@ h1 {
 
 /* Hebrew Alphabet Table */
 
-#hebrew-alphabet-table
+#alphabet-table
 {
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    
     font-weight: 600;
     font-size: 100%;
 }
@@ -148,6 +146,7 @@ th, td {
     text-align: center;
     padding: 20px;
     margin-right: 10px;
+    margin-bottom: 20px;
     letter-spacing: 3px;
     margin-right: 10px;
     font-weight: 400;
@@ -161,6 +160,14 @@ th {
 
 tr:nth-child(even){background-color: #F0F8FF;}
 tr:hover {background-color: #ADD8E6;}
+
+.vowels {
+    width: 80%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+
 
 
 
