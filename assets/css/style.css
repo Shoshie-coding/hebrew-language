@@ -27,7 +27,7 @@ h1 {
     font-size: 370%;
     text-align: center;
     margin-top: 100px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #0339A6;
 
 
@@ -128,15 +128,41 @@ h1 {
 
 }
 
+/* Hebrew Alphabet Table */
+
 #hebrew-alphabet-table
 {
-    max-width: 70%;
+    max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    text-align: left;
-    font-weight: 400;
+    
+    font-weight: 600;
     font-size: 100%;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 20px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+    margin-right: 10px;
+    font-weight: 400;
+    border: 1px solid #ddd;
+    
+}
+
+th {
+    color: #0339A6;
+}
+
+tr:nth-child(even){background-color: #F0F8FF;}
+tr:hover {background-color: #ADD8E6;}
+
+
 
 /* #top-image {
 
