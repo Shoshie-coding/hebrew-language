@@ -10,7 +10,7 @@ body {
     font-size: 100%;
 }
 
-/* headings and logo */
+/* headings */
 
 h2, h3 {
     font-weight: 600;
@@ -33,13 +33,15 @@ h1 {
 
 }
 
-/* navigation links */
+/* header navigation links */
 
 #menu {
     font-size: 110%;
     font-weight: 600;
     font-family: 'Arima Madurai', cursive;
     color: #0339A6;
+    
+    
 }
 
 #menu li {
@@ -73,7 +75,6 @@ h1 {
 }
 
 
-
 /* all links */
 
 a:link {
@@ -93,7 +94,10 @@ a:hover {
 
 
 
+/* home page */
+
 /* main container */
+
 #main-container {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
@@ -109,18 +113,26 @@ a:hover {
     
 }
 
-/* home page */
-#main-image {
-    background-color:white;
-    text-align: right;
-    margin-right: 30px;
+
+#div-home-image {
+    background-color:white; 
+    padding: 20px;
     border: none;
-    width: 70%;
-    float: left;
+    max-width: 600%;
     
 }
 
-/* hebrew alphabet Page */
+#home-image {
+    display: block;
+    max-width: 60%;
+    padding: 30px 20px 20px 50px;
+    margin: auto auto;
+  
+    
+
+}
+
+/* hebrew alphabet page */
 
 #hebrew-alphabet-introduction {
     width: 70%;
@@ -177,6 +189,7 @@ tr:hover {background-color: #ADD8E6;}
     margin: 20px 20px;
 }
 
+
 /* Common Hebrew Phrases Page */
 #words-introduction {
     width: 50%;
@@ -191,6 +204,59 @@ tr:hover {background-color: #ADD8E6;}
     margin-right: 30px;
     
 }
+
+/* Footer */
+
+.main-footer {
+    background-color: #F4E2BE;
+    font-size: 90%;
+    font-weight: 600;
+    font-family: 'Arima Madurai', cursive;
+    color: #0339A6;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+.main-footer li {
+    list-style-type: none;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    font-size: 90%;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+.main-footer ul {
+      display: table;
+      list-style-type: none;
+      text-align: center;
+      margin: 0 auto; 
+      padding: 0px; 
+      display: block; 
+    
+
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-footer a:hover {
+    color: #F2B84B;
+}
+
+.copyright {
+    text-align: center;
+    color: black;
+    font-size: 90%;
+    font-weight: 600;
+    font-family: 'Arima Madurai', cursive
+
+}
+
 
 
 /* Header image

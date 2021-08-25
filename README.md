@@ -26,7 +26,65 @@ Images
 
 
 
+------------------
+# Hebrew Language
 
+This is a website that provides people information about the Hebrew language, alphabet, and most common Hebrew words. It is mainly aimed at people who are generally interested in learning about the Hebrew language and culture. Using beautiful pictures from Hebrew illuminated manuscripts, it also hopes to stir people's curiosity about Jewish culture and civilisation. 
+
+
+## Deployment 
+The project was deployed to GitHub Pages using the following steps:
+1. Go to GitHub and locate the repository to be deployed [GitHub Repository](https://github.com/Shoshie-coding/project-1)
+2. On the top right-hand side - click Settings
+3. Scroll down until you locate the Pages tab on the left-hand side navigation menu. 
+4. Under Source - click on the drop-down called None and select Main and leave the /(root) option as it is. 
+5. Click Save 
+6.  The Page refreshes itself - message " Your site is ready to be published at https://shoshie-coding.github.io/project-1/. 
+7. Refresh page - notice message -  Your site is published at https://shoshie-coding.github.io/project-1/. 
+
+
+## Credits 
+
+### Content 
+The following resources were used as sources of information and inspiration for the content on my website:
+
+- [Hebrew-English and English-Hebrew dictionary](https://www.morfix.co.il/en/)
+
+- [Hebrew Language - Wikipedia article](https://en.wikipedia.org/wiki/Hebrew_language)
+
+- [Encyclopaedia Britannica article]( https://www.britannica.com/topic/Hebrew-language)
+
+- [The Times of Israel article](https://blogs.timesofisrael.com/basic-hebrew-phrases-and-slang-you-should-know-in-israel/)
+
+### Media
+Pictures used on my website are not from royalty free websites as there are no really good options on any of the free picture websites I checked. This is just a student website, my project is for educational purposes only. If I decide to make this a commercial website, I will change the pictures. 
+
+[Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/)
+
+[Yeshiva University Museum](https://www.yumuseum.org/programs/2019/09/08/art-workshop-new-years-cards-in-the-style-of-illuminated-hebrew-manuscripts)
+
+
+### Code
+Inspiration for the table on the Alphabet page came from [W3 Schools article](https://www.w3schools.com/css/css_table_style.asp)
+
+I consulted [W3 Schools](https://www.w3schools.com/css/css_pseudo_classes.asp) to gain further info on pseudo-classes and link styling. 
+
+Fonts were taken from [Google Fonts](https://fonts.google.com/)
+
+I used [Adobe color](https://color.adobe.com/mythemes) to extract the colors used on the website. 
+
+
+
+
+
+
+
+
+
+
+
+
+======================
 Welcome Cristina Onea,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
