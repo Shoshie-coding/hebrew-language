@@ -40,12 +40,9 @@ h1 {
     font-weight: 600;
     font-family: 'Arima Madurai', cursive;
     color: #0339A6;
-  
-    
 }
 
 #menu li {
-    
     list-style-type: none;
     letter-spacing: 4px;
     padding-top: 50px;
@@ -69,15 +66,28 @@ h1 {
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
-    border-bottom: 1px double #F2B84B;
+    color: #F2B84B;
 }
 
-#menu a:active {
-    border-bottom: 1px double #F2B84B;
+
+
+/* all links */
+
+a:link {
+    color: green;
+  
+}
+
+a:visited {
+    color: #0339A6;
+
+}
+
+a:hover {
+    color: #F2B84B;
 
 }
 
@@ -99,7 +109,7 @@ h1 {
     
 }
 
-/* main image */
+/* home page */
 #main-image {
     background-color:white;
     text-align: right;
@@ -108,9 +118,9 @@ h1 {
     width: 70%;
     float: left;
     
-  
-
 }
+
+/* hebrew alphabet Page */
 
 #hebrew-alphabet-introduction {
     width: 70%;
@@ -127,7 +137,7 @@ h1 {
 
 }
 
-/* Hebrew Alphabet Table */
+/* hebrew alphabet table */
 
 #alphabet-table
 {
@@ -167,11 +177,24 @@ tr:hover {background-color: #ADD8E6;}
     margin: 20px 20px;
 }
 
+/* Common Hebrew Phrases Page */
+#words-introduction {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+
+}
+
+#words-picture {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
 
 
-
-
-/* #top-image {
+/* Header image
+ #top-image {
 
     background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2.jpg);
     background-size: cover;
