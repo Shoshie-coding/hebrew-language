@@ -13,7 +13,7 @@ body {
 /* headings */
 
 h2, h3 {
-    font-weight: 600;
+    font-weight: 400;
     color: #0339A6;
     letter-spacing: 3px;
     font-family: 'Arima Madurai', cursive;
@@ -30,7 +30,6 @@ h1 {
     letter-spacing: 3px;
     color: #0339A6;
 
-
 }
 
 /* header navigation links */
@@ -40,9 +39,21 @@ h1 {
     font-weight: 600;
     font-family: 'Arima Madurai', cursive;
     color: #0339A6;
-    
+    background-color: white; 
     
 }
+
+
+#menu ul {
+      display: table;
+      list-style-type: none;
+      text-align: center;
+      margin: 0auto; 
+      padding: 0px; 
+      display: block; 
+     
+}
+
 
 #menu li {
     list-style-type: none;
@@ -54,26 +65,24 @@ h1 {
 
 }
 
-#menu ul {
-      display: table;
-      list-style-type: none;
-      text-align: center;
-      margin: 0auto; 
-      padding: 0px; 
-      display: block; 
-     
-
-}
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
-    color: #F2B84B;
+
+.active {
+    color: #F2B84B ;
 }
 
+/* #menu a:active {
+    color: #F2B84B ;
+} */
+
+#menu a:hover {
+    color: #F2B84B;
+     
+}
 
 /* all links */
 
@@ -93,7 +102,6 @@ a:hover {
 }
 
 
-
 /* home page */
 
 /* main container */
@@ -110,6 +118,7 @@ a:hover {
     line-height: 1.50;
     height: 100%;
     width: auto;
+    color: black;
     
 }
 
@@ -182,6 +191,9 @@ th {
 
 tr:nth-child(even){background-color: #F0F8FF;}
 tr:hover {background-color: #ADD8E6;}
+
+
+/* Vowels image */
 
 .vowels {
     width: 80%;
@@ -258,9 +270,9 @@ tr:hover {background-color: #ADD8E6;}
 }
 
 
-
-/* Header image
- #top-image {
+/* 
+Header image
+ #header-image {
 
     background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2.jpg);
     background-size: cover;
@@ -273,4 +285,4 @@ tr:hover {background-color: #ADD8E6;}
     max-width: 100%;
     max-height: 50%;
 
-} */
+}  */
