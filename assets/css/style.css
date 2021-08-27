@@ -48,8 +48,8 @@ h1 {
       display: table;
       list-style-type: none;
       text-align: center;
-      margin: 0auto; 
-      padding: 0px; 
+      margin: 0 auto; 
+      padding: 0 px; 
       display: block; 
      
 }
@@ -71,13 +71,10 @@ h1 {
 }
 
 
-.active {
-    color: #F2B84B ;
+#menu a.active {
+    color: #F2B84B;
 }
 
-/* #menu a:active {
-    color: #F2B84B ;
-} */
 
 #menu a:hover {
     color: #F2B84B;
@@ -103,8 +100,6 @@ a:hover {
 
 
 /* home page */
-
-/* main container */
 
 #main-container {
     font-family: 'Montserrat', sans-serif;
@@ -137,7 +132,6 @@ a:hover {
     padding: 30px 20px 20px 50px;
     margin: auto auto;
   
-    
 
 }
 
@@ -167,6 +161,7 @@ a:hover {
     background-color: white;
     font-weight: 600;
     font-size: 100%;
+    padding: 30px;
 }
 
 table {
@@ -195,27 +190,45 @@ tr:hover {background-color: #ADD8E6;}
 
 /* Vowels image */
 
-.vowels {
-    width: 80%;
-    padding: 20px 20px;
+#vowels {
+    width: 70%;
+    padding: 20px 0 20px 0;
     margin: 20px 20px;
+    height: 100%;
 }
 
 
 /* Common Hebrew Phrases Page */
 #words-introduction {
-    width: 50%;
-    text-align: right;
-    margin-right: 30px;
-
+    width: 80%;
+    text-align: left;
+    float: inherit;
+    
+   
 }
 
 #words-picture {
     width: 50%;
     float: left;
-    margin-right: 30px;
+    margin: 0 50px 50px 0;
     
 }
+
+/* Second image */
+#div-second-image {
+    width: 70%;
+    text-align: left;
+    float: inherit;
+
+}
+
+#second-image {
+    width: 70%;
+    text-align: left;
+    float: right;
+
+}
+
 
 /* Footer */
 
