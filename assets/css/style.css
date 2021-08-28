@@ -19,8 +19,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding: 400px 310px 290px 300px;
-    max-width: auto;
+    padding: 400px 300px 290px 300px;
     max-height: 80%;
     min-height: 80%;
     
@@ -41,7 +40,7 @@ h2, h3 {
 
 h1 {
     font-family: 'Arima Madurai', cursive;
-    font-size: 370%;
+    font-size: 300%;
     text-align: center;
     margin-top: 100px;
     letter-spacing: 3px;
@@ -177,8 +176,8 @@ a:hover {
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    font-weight: 600;
-    font-size: 100%;
+    font-weight: 400;
+    font-size: 110%;
     padding: 30px;
 }
 
@@ -203,7 +202,7 @@ th {
 }
 
 td {
-    font-weight: 600;
+    font-weight: 400;
 }
 
 tr:nth-child(even){background-color: #F0F8FF;}
@@ -221,7 +220,28 @@ tr:hover {background-color: #ADD8E6;}
 }
 
 
+
 /* Common Hebrew Phrases Page */
+
+#container-words-page {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
+    margin: 10px 30px 0 30px;
+    padding: 80px 200px 300px 200px;
+    border: none;
+    max-width: 150%;
+    letter-spacing: 2px;
+    line-height: 1.50;
+    height: 100%;
+    width: auto;
+    color: black;
+
+
+}
+
+
 #words-introduction {
     width: 80%;
     text-align: left;
@@ -231,28 +251,35 @@ tr:hover {background-color: #ADD8E6;}
 
 #words-picture {
     width: 50%;
+    max-width: 100%;
     float: left;
     margin: 0 50px 50px 0;
     border-radius: 5px;
     
 }
 
-/* Second image */
-#div-second-image {
-    width: 70%;
-    text-align: left;
-    float: right;
-
+.clear {
+    clear: left;
 }
 
+/* Second image */
+
+.clearfix {
+    overflow: auto;
+}
+
+
 #second-image {
-    max-width: 70%;
+    max-width: 65%;
     text-align: left;
     float: right;
     border-radius: 5px;
-    margin: 0 0 30px 30px;
+    margin: 0 0 50px 50px;
 
 }
+
+
+
 
 
 /* Footer */
@@ -268,7 +295,6 @@ tr:hover {background-color: #ADD8E6;}
     width: 100%;
     
 }
-
 
 
 .main-footer li {
