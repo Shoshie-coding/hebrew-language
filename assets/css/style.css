@@ -19,7 +19,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    padding: 400px 300px 290px 300px;
+    padding: 200px 300px 290px 300px;
+    margin: 0;
     max-height: 80%;
     min-height: 80%;
     
@@ -34,7 +35,6 @@ h2, h3 {
     letter-spacing: 3px;
     font-family: 'Arima Madurai', cursive;
     text-align: left;
-
 
 }
 
@@ -117,7 +117,7 @@ a:hover {
 
 /* home page */
 
-#main-container {
+.main-container {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     text-align: left;
@@ -275,7 +275,7 @@ tr:hover {background-color: #ADD8E6;}
     float: right;
     border-radius: 5px;
     margin: 0 0 50px 50px;
-
+ 
 }
 
 
@@ -287,11 +287,11 @@ tr:hover {background-color: #ADD8E6;}
 .main-footer {
     background-color: #F4E2BE;
     font-size: 100%;
-    font-weight: 600;
+    font-weight: 400;
     font-family: 'Arima Madurai', cursive;
     color: #0339A6;
     padding: 40px;
-    text-align: center;
+    text-align: ceter;
     width: 100%;
     
 }
@@ -335,5 +335,13 @@ tr:hover {background-color: #ADD8E6;}
     
 }
 
+/* Media queries */
+
+/* For large to medium screen size from 800 and down */
+@media screen and (max-width: 1000px) {
+    
+
+
+}
 
 
