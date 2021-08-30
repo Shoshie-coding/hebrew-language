@@ -17,12 +17,12 @@ body {
     background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
-    padding: 200px 300px 290px 300px;
+    width: 100%;
     margin: 0;
     max-height: 80%;
-    min-height: 80%;
+    min-height: 450px;
     
 
 } 
@@ -121,32 +121,33 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     text-align: left;
-    margin: 10px 50px 0 50px;
-    padding: 80px 300px 300px 300px;
+    margin: 50px auto;
+    /* padding: 80px 300px 300px 300px; */
     border: none;
-    max-width: 150%;
+    max-width: 860px;
     letter-spacing: 2px;
     line-height: 1.50;
     height: 100%;
-    width: auto;
+    /* width: auto; */
     color: black;
+    
     
 }
 
 
 #div-home-image {
     background-color:white; 
-    padding: 20px;
+    /* padding: 20px; */
     border: none;
-    max-width: 600%;
+    /* max-width: 300%; */
     
 }
 
 #home-image {
     display: block;
     max-width: 60%;
-    padding: 30px 20px 20px 50px;
-    margin: auto auto;
+    /* padding: 30px 20px 20px 50px; */
+    margin: 0 auto;
   
 
 }
@@ -228,14 +229,14 @@ tr:hover {background-color: #ADD8E6;}
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     text-align: left;
-    margin: 10px 30px 0 30px;
-    padding: 80px 200px 300px 200px;
+    margin: 50px auto;
+    /* padding: 80px 200px 300px 200px; */
     border: none;
     max-width: 150%;
     letter-spacing: 2px;
     line-height: 1.50;
     height: 100%;
-    width: auto;
+    max-width: 860px;
     color: black;
 
 
@@ -291,9 +292,9 @@ tr:hover {background-color: #ADD8E6;}
     font-weight: 400;
     font-family: 'Arima Madurai', cursive;
     color: #0339A6;
-    padding: 40px;
-    text-align: ceter;
-    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
     
 }
 
@@ -339,9 +340,34 @@ tr:hover {background-color: #ADD8E6;}
 /* Media queries */
 
 /* For large to medium screen size from 800 and down */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 360px) {
+    .main-container,
+    #container-words-page  {
+        margin: 0;
+        padding: 0 5px;
+        max-width: 100%;
+        
+        
+    }
     
+    h1 {
+        padding-left: 10px;
+        text-align: center;
+        width: 100%
+    }
+    #div-home-image {
+        width: 100%;
+    }
 
+  #manuscript-picture {
+      margin: 10px;
+      padding: 10px 10px 0 0;
+     
+  }
+  #alphabet-table {
+    max-width:  340px;
+    overflow-x: scroll;
+  }
 
 }
 
