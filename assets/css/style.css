@@ -29,24 +29,26 @@ body {
 
 /* Headings */
 
+h1 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 300%;
+    text-align: center;
+    margin: 100px 100px;
+    letter-spacing: 3px;
+    color: #0339A6;
+
+}
+
 h2, h3 {
     font-weight: 600;
-    color: #0339A6;
+    color: #D95252;
     letter-spacing: 3px;
     font-family: 'Arima Madurai', cursive;
     text-align: left;
 
 }
 
-h1 {
-    font-family: 'Arima Madurai', cursive;
-    font-size: 300%;
-    text-align: center;
-    margin-top: 100px;
-    letter-spacing: 3px;
-    color: #0339A6;
 
-}
 
 /* header navigation links */
 
@@ -89,11 +91,13 @@ h1 {
 
 #menu a.active {
     color: #F2B84B;
+    border-bottom: 2px solid #F2B84B;
 }
 
 
 #menu a:hover {
     color: #F2B84B;
+    
      
 }
 
@@ -333,8 +337,7 @@ tr:hover {background-color: #ADD8E6;}
     color: black;
     font-size: 100%;
     font-weight: 600;
-    font-family: 'Arima Madurai', cursive
-    
+    font-family: 'Arima Madurai', cursive  
 }
 
 /* Media queries */
@@ -345,9 +348,7 @@ tr:hover {background-color: #ADD8E6;}
     #container-words-page  {
         margin: 0;
         padding: 0 5px;
-        max-width: 100%;
-        
-        
+        max-width: 100%;   
     }
     
     h1 {
@@ -355,6 +356,11 @@ tr:hover {background-color: #ADD8E6;}
         text-align: center;
         width: 100%
     }
+
+    h2 {
+        text-align: center;
+    }
+
     #div-home-image {
         width: 100%;
     }
@@ -370,5 +376,13 @@ tr:hover {background-color: #ADD8E6;}
   }
 
 }
+
+@media screen and (max-width: 535px) {
+    #menu a.active {
+        color: #F2B84B;
+        
+    }
+}
+
 
 

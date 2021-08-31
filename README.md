@@ -33,6 +33,7 @@ This is a website that provides people information about the Hebrew language, al
 
 
 ## Deployment 
+### GitHub Pages
 The project was deployed to GitHub Pages using the following steps:
 1. Go to GitHub and locate the repository to be deployed [GitHub Repository](https://github.com/Shoshie-coding/project-1)
 2. On the top right-hand side - click Settings
@@ -41,6 +42,8 @@ The project was deployed to GitHub Pages using the following steps:
 5. Click Save 
 6.  The Page refreshes itself - message " Your site is ready to be published at https://shoshie-coding.github.io/project-1/. 
 7. Refresh page - notice message -  Your site is published at https://shoshie-coding.github.io/project-1/. 
+
+### Local Clone
 
 
 ## Credits 
@@ -73,7 +76,29 @@ Fonts were taken from [Google Fonts](https://fonts.google.com/)
 
 I used [Adobe color](https://color.adobe.com/mythemes) to extract the colors used on the website. 
 
+## Testing
+### Code Validation
 
+### Responsiveness Test
+- I used media queries to make my website responsive
+
+### Browser compatibility
+I tested my website on various browsers and screen sizes. The website works well and is responsive as expected and designed everywhere I tested. 
+
+#### Browsers
+- Chrome
+- Microsoft Edge 
+- Internet Explorer
+- Mozilla Firefox
+
+#### Devices:
+- Desktop
+- Laptop
+- iPhone8
+- Samsung S10 Plus
+- Huawei P30
+
+### Bugs 
 
 
 
