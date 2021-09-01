@@ -11,7 +11,7 @@ body {
 /* Header image */
 
 #header-image {
-    background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2.jpg);
+    background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -57,7 +57,7 @@ h3 {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
-    padding: 0 px;
+    padding: 0;
     display: block;
 }
 
@@ -264,7 +264,7 @@ tr:hover {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0;
     display: block;
 }
 
@@ -294,16 +294,16 @@ tr:hover {
 
     .main-container,
     #container-words-page {
-        margin: 10px 10px;
-        padding: 10px 10px;
         max-width: 100%;
+        margin: 10px;
+        padding: 20px;
     }
 
     h1 {
         padding-left: 10px;
-        text-align: left;
+        text-align: center;
         width: 100%;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     h2 {
@@ -325,6 +325,17 @@ tr:hover {
     }
 }
 
+@media screen and (max-width: 360px) {
+    h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #second-image {
+        margin-right: 45px;
+    }
+}
+
 @media screen and (max-width: 535px) {
     #menu a.active {
         border: none;
@@ -337,8 +348,13 @@ tr:hover {
 }
 
 @media screen and (max-width: 470px) {
+
+    #home-image {
+        max-width: 70%;
+    }
+
     #main-points {
-        text-align: left;
+        text-align: center;
         width: 100%;
         padding: 5px;
         float: left;
@@ -349,14 +365,43 @@ tr:hover {
     }
 
     h1 {
-        text-align: left;
-        float: left;
+        text-align: center;
+        font-size: 35px;
+        margin: 70px 70px;
     }
 }
+
 
 @media screen and (max-width: 720px) {
     #alphabet-table {
         max-width: 450px;
         overflow-x: scroll;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .main-container,
+    #container-words-page {
+        max-width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 935px) {
+
+        #menu ul {
+            text-align: center;
+            margin: 0 10px 0 10px;
+        }
     }
 }
