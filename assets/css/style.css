@@ -238,7 +238,6 @@ tr:hover {
     overflow: auto;
 }
 
-
 #second-image {
     width: 60%;
     height: 60%;
@@ -301,42 +300,43 @@ tr:hover {
 
 /* Media queries */
 
-/* For large to medium screen size from 800 and down */
-@media screen and (max-width: 370px) {
-
+/* For medium screen size from 300 and up */
+@media screen and (max-width: 300px) {
     .main-container,
     #container-words-page {
-        margin: 0;
-        padding: 0 5px;
+        margin: 10px 10px;
+        padding: 10px 10px;
         max-width: 100%;
     }
 
-    #header-image {
+    /* #header-image {
         background-size: cover;
-        background-position: center;
-    }
+        background-position: center center;
+        background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2-resized.jpg);
+    } */
 
     h1 {
         padding-left: 10px;
-        text-align: center;
-        width: 100%
+        text-align: left;
+        width: 100%;
+        font-size: 40px;
     }
 
     h2 {
-        text-align: center;
+        text-align: left;
     }
 
     #div-home-image {
-        width: 100%;
+        width: 120%;
     }
 
-    #manuscript-picture {
+    #alphabet-picture {
         margin: 10px;
         padding: 10px 10px 0 0;
     }
 
     #alphabet-table {
-        max-width: 340px;
+        max-width: 450px;
         overflow-x: scroll;
     }
 }
@@ -344,11 +344,15 @@ tr:hover {
 @media screen and (max-width: 535px) {
     #menu a.active {
         border: none;
-
     }
+    #alphabet-table {
+        max-width: 450px;
+        overflow-x: scroll;
+    }
+    
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 470px) {
     #main-points {
         text-align: left;
         width: 100%;
@@ -364,44 +368,15 @@ tr:hover {
         text-align: left;
         float: left;
     }
+
+    #header-image {
+        background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2-resized.jpg);
+    }
 }
 
-@media screen and (max-width: 360px) {
-    h1 {
-        font-size: 45px;
-    }
-
+@media screen and (max-width: 720px) {
     #alphabet-table {
         max-width: 450px;
         overflow-x: scroll;
     }
-}
-
-
-
-@media screen and (max-width: 730px) {
-    body {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-
-    }
-}
-
-@media screen and (max-width: 770px) {
-    #alphabet-table {
-        max-width: 600px;
-        overflow-x: scroll;
-    }
-}
-
-@media screen and (max-width: 880px) {
-
-    .main-container,
-    #container-words-page {
-        margin: 10px;
-        padding: 0 5px;
-        max-width: 100%;
-    }
-
 }
