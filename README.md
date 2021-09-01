@@ -6,7 +6,6 @@ Headings
 ## Heading 2
 ### Heading 3
 
-
 Lists 
 
 * List using asterisks 
@@ -23,13 +22,13 @@ Images
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
-
-
-
 ------------------
 # Hebrew Language
 
 This is a website that provides people information about the Hebrew language, alphabet, and most common Hebrew words. It is mainly aimed at people who are generally interested in learning about the Hebrew language and culture. Using beautiful pictures from Hebrew illuminated manuscripts, it also hopes to stir people's curiosity about Jewish culture and civilisation. 
+You can view the live website . 
+[here](https://www.google.ie/)
+
 
 
 ## Deployment 

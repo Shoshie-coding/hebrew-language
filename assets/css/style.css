@@ -52,7 +52,6 @@ h3 {
     background-color: white;
 }
 
-
 #menu ul {
     display: table;
     list-style-type: none;
@@ -61,7 +60,6 @@ h3 {
     padding: 0 px;
     display: block;
 }
-
 
 #menu li {
     list-style-type: none;
@@ -77,18 +75,16 @@ h3 {
     color: inherit;
 }
 
-
 #menu a.active {
     color: #F2B84B;
     border-bottom: 2px solid #F2B84B;
 }
 
-
 #menu a:hover {
     color: #F2B84B;
 }
 
-/* all links */
+/* All links */
 
 a:link {
     color: blue;
@@ -101,7 +97,6 @@ a:visited {
 a:hover {
     color: #66CC00;
 }
-
 
 /* Home page */
 
@@ -126,7 +121,6 @@ a:hover {
 #home-image {
     display: block;
     max-width: 60%;
-    /* padding: 30px 20px 20px 50px; */
     margin: 0 auto;
 }
 
@@ -204,7 +198,6 @@ tr:hover {
     background-color: white;
     text-align: left;
     margin: 50px auto;
-    /* padding: 80px 200px 300px 200px; */
     border: none;
     max-width: 150%;
     letter-spacing: 2px;
@@ -232,12 +225,6 @@ tr:hover {
     clear: left;
 }
 
-/* Second image */
-
-.clearfix {
-    overflow: auto;
-}
-
 #second-image {
     width: 60%;
     height: 60%;
@@ -245,7 +232,10 @@ tr:hover {
     float: right;
     border-radius: 5px;
     margin: 0 0 50px 50px;
+}
 
+.clearfix {
+    overflow: auto;
 }
 
 /* Footer */
@@ -259,7 +249,6 @@ tr:hover {
     padding: 40px 0;
     text-align: center;
     margin: 0;
-
 }
 
 .main-footer li {
@@ -277,7 +266,6 @@ tr:hover {
     margin: 0 auto;
     padding: 0px;
     display: block;
-
 }
 
 .main-footer a {
@@ -301,19 +289,15 @@ tr:hover {
 /* Media queries */
 
 /* For medium screen size from 300 and up */
+
 @media screen and (max-width: 300px) {
+
     .main-container,
     #container-words-page {
         margin: 10px 10px;
         padding: 10px 10px;
         max-width: 100%;
     }
-
-    /* #header-image {
-        background-size: cover;
-        background-position: center center;
-        background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2-resized.jpg);
-    } */
 
     h1 {
         padding-left: 10px;
@@ -345,11 +329,11 @@ tr:hover {
     #menu a.active {
         border: none;
     }
+
     #alphabet-table {
         max-width: 450px;
         overflow-x: scroll;
     }
-    
 }
 
 @media screen and (max-width: 470px) {
@@ -367,10 +351,6 @@ tr:hover {
     h1 {
         text-align: left;
         float: left;
-    }
-
-    #header-image {
-        background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20_2-resized.jpg);
     }
 }
 
