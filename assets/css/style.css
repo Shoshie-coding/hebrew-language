@@ -11,7 +11,7 @@ body {
 /* Header image */
 
 #header-image {
-    background-image: url(../images/ashkenazi-haggadah-facsimile-edition.jpg);
+    background-image: url(../images/hebrew-writing-manuscript.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -77,11 +77,11 @@ h3 {
 
 #menu a.active {
     color: #F2B84B;
-    border-bottom: 2px solid #F2B84B;
+    border-bottom: 2px solid #A3AA89;
 }
 
 #menu a:hover {
-    color: #F2B84B;
+    color: #A3AA89;
 }
 
 /* All links */
@@ -95,7 +95,7 @@ a:visited {
 }
 
 a:hover {
-    color: #66CC00;
+    color: #A3AA89;
 }
 
 /* Home page */
@@ -103,11 +103,11 @@ a:hover {
 .main-container {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    text-align: left;
+    text-align: justify;
     margin: 50px auto;
     border: none;
     max-width: 860px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.50;
     height: 100%;
     color: black;
@@ -196,7 +196,7 @@ tr:hover {
 #container-words-page {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    text-align: left;
+    text-align: justify;
     margin: 50px auto;
     border: none;
     max-width: 150%;
@@ -275,7 +275,7 @@ tr:hover {
 
 .main-footer a:hover {
     color: #401801;
-    border-bottom: 2px solid #401801;
+    border-bottom: 2px solid #403521;
 }
 
 .copyright {
@@ -292,10 +292,6 @@ tr:hover {
 /* For small-medium screen size from 300 and up */
 
 @media screen and (max-width: 300px) {
-
-    #header-image {
-        width: 30%;
-    }
 
     h1,
     h2 {
@@ -327,8 +323,8 @@ tr:hover {
 
     #second-image {
         float: none;
-        margin: 40px 40px;
-        width: 85%
+        margin: 20px 20px;
+        width: 80%
     }
 
     #words-picture {
@@ -402,8 +398,8 @@ tr:hover {
         background-attachment: fixed;
         width: 100%;
         margin: 0;
-        max-height: 90%;
-        min-height: 450px;
+        max-height: 70%;
+        min-height: 300px;
     }
 
 }

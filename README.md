@@ -11,12 +11,13 @@ The Header image provides visual stimulation and sets the color theme for the wh
 The Navigation Bar is featured on all three pages, it includes links to Home page, Hebrew language page and the Common Hebrew Phrases page. It is fully responsive and allows users to navigate seamlessly between pages.
 ![Header image and nav bar screenshot](assets/images/header-nav-bar.png)
 
-- The main heading and image introduces the user to the Hebrew language and 
+- The main heading and image introduces the user to the Hebrew language and the theme of the website. 
+
 
 ## Design
 
 ### Color Theme and imagery
-[Adobe Color](https://color.adobe.com/create/color-wheel) was used to extract the main three colors of the website: blue, cream and dark brown. The theme was taken from the header image on my page which represents a Hebrew illuminated manuscript. This sets the theme on the whole website which was inspired by the beautifully illustrated Jewish manuscripts. 
+[Adobe Color](https://color.adobe.com/create/color-wheel) was used to extract the main three colors of the website: blue, cream and dark brown. The colors were extracted from imagages on my website. These are old Hebrew manuscripts and Hebrew illuminated manuscripts that show the beauty of the Hebrew alphabet and Jewish art. 
 
 ### Typography
 For the main text, 'Montserrat' font is used with a fall-back on sans-serif. For headings, navigation bar and footer, 'Arima Madurai' font is used with a fallback on cursive.
@@ -46,23 +47,23 @@ The following resources were used as sources of information and inspiration for 
 
 - [Encyclopaedia Britannica]( https://www.britannica.com/topic/Hebrew-language) - this offers a short intro to the Hebrew language.
 
-- [The Times of Israel article](https://blogs.timesofisrael.com/basic-hebrew-phrases-and-slang-you-should-know-in-israel/)
+- [The Times of Israel article](https://blogs.timesofisrael.com/basic-hebrew-phrases-and-slang-you-should-know-in-israel/) with info on Israeli slang words. 
 
 ### Media
-Pictures used on my website are not from royalty free websites as there are no really good options on any of the free picture websites I checked. This is just a student website, my project is for educational purposes only. If I decide to make this a commercial website, I will change the pictures. The pictures are listed below in order of appearance on the website.
-#### Home page
+Some pictures on my website are not from royalty free websites. This is a student website, my project is for educational purposes only. If I decide to make this a commercial website, I will change the pictures. The pictures are listed below in order of appearance on the website.
 
-[Facsimile Finder](https://www.facsimilefinder.com/facsimiles/ashkenazi-haggadah-facsimile#&gid=1&pid=20) - image from the Ashkenazi Haggadah Jewish manuscript. 
 
-[Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/) - medieval calligraphy image credited to [Facsimile Finder](www.facsimilefinder.com)
+- [Header image on Home page - free to download from Unspash](https://unsplash.com/photos/xUXGHzhIbN4)
 
-[Yeshiva University Museum](https://www.yumuseum.org/programs/2019/09/08/art-workshop-new-years-cards-in-the-style-of-illuminated-hebrew-manuscripts)
 
-#### The Hebrew Alphabet page
-[Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/) - image from the Dead Sea Scrolls credited to [The Jewish Musem](thejewishmuseum.org)
+- Image of a Dead Sea Scrolls manuscript - [Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/) credited to [Facsimile finder](https://www.facsimilefinder.com/)
 
-#### Common Hebrew Phrases page
-[](https://www.yumuseum.org/programs/2019/09/08/art-workshop-new-years-cards-in-the-style-of-illuminated-hebrew-manuscripts) - picture with the word 'Shalom' in Hebrew. 
+- Image of a medieval decorated text text credited to  [Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/) - [The Jewish Museum] (https://thejewishmuseum.org/)
+- [Picture of Hebrew vowels](https://omniglot.com/writing/hebrew.htm) 
+
+- [Yeshiva University Museum](https://www.yumuseum.org/programs/2019/09/08/art-workshop-new-years-cards-in-the-style-of-illuminated-hebrew-manuscripts) - picture with the word 'Shalom' in Hebrew. 
+
+- Picture of a Hebrew text - [Unsplash](https://unsplash.com/photos/eQ2Z9ay9Wws)
 
 ### Code
 Inspiration for the table on the Alphabet page came from [W3 Schools article](https://www.w3schools.com/css/css_table_style.asp)
