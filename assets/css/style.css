@@ -11,14 +11,14 @@ body {
 /* Header image */
 
 #header-image {
-    background-image: url(../images/ashkenazi-haggadah-facsimile-edition-20.jpg);
+    background-image: url(../images/ashkenazi-haggadah-facsimile-edition.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     width: 100%;
     margin: 0;
-    max-height: 80%;
+    max-height: 90%;
     min-height: 450px;
 }
 
@@ -283,31 +283,25 @@ tr:hover {
     color: black;
     font-size: 100%;
     font-weight: 600;
-    font-family: 'Arima Madurai', cursive
+    font-family: 'Arima Madurai', cursive;
+    margin: 50px 80px 0 0;
 }
 
 /* Media queries */
 
-/* For medium screen size from 300 and up */
+/* For small-medium screen size from 300 and up */
 
 @media screen and (max-width: 300px) {
 
-    .main-container,
-    #container-words-page {
-        max-width: 100%;
-        margin: 10px;
-        padding: 20px;
+    #header-image {
+        width: 30%;
     }
 
-    h1 {
-        padding-left: 10px;
+    h1,
+    h2 {
         text-align: center;
         width: 100%;
         font-size: 30px;
-    }
-
-    h2 {
-        text-align: left;
     }
 
     #div-home-image {
@@ -332,13 +326,30 @@ tr:hover {
     }
 
     #second-image {
-        margin-right: 45px;
+        float: none;
+        margin: 40px 40px;
+        width: 85%
+    }
+
+    #words-picture {
+        width: 100%;
+        float: none;
+        margin: 0 40px 30px 30px;
     }
 }
 
 @media screen and (max-width: 535px) {
+    h1 {
+        margin: 65px 100px 50px 100px;
+    }
+
     #menu a.active {
         border: none;
+    }
+
+    #menu ul {
+        margin-left: 30px;
+
     }
 
     #alphabet-table {
@@ -353,13 +364,6 @@ tr:hover {
         max-width: 70%;
     }
 
-    #main-points {
-        text-align: center;
-        width: 100%;
-        padding: 5px;
-        float: left;
-    }
-
     #alphabet-picture {
         width: 120%;
     }
@@ -369,8 +373,12 @@ tr:hover {
         font-size: 35px;
         margin: 70px 70px;
     }
-}
 
+    h1,
+    h2 {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 720px) {
     #alphabet-table {
@@ -384,6 +392,22 @@ tr:hover {
     }
 }
 
+@media screen and (max-width: 800px) {
+
+    #header-image {
+        background-image: url(../images/hebrew-writing-manuscript.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        width: 100%;
+        margin: 0;
+        max-height: 90%;
+        min-height: 450px;
+    }
+
+}
+
 @media screen and (max-width: 900px) {
 
     .main-container,
@@ -395,13 +419,5 @@ tr:hover {
 
     h1 {
         text-align: center;
-    }
-
-    @media screen and (max-width: 935px) {
-
-        #menu ul {
-            text-align: center;
-            margin: 0 10px 0 10px;
-        }
     }
 }
