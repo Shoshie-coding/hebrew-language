@@ -124,6 +124,10 @@ a:hover {
     margin: 0 auto;
 }
 
+#main-points ul {
+    list-style-type: none;
+}
+
 /* hebrew alphabet page */
 
 #alphabet-introduction {
