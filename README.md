@@ -24,6 +24,9 @@ The Navigation Bar is featured on all three pages, it includes links to Home pag
 - The two images with content on the Common Hebrew Phrases page
 ![Main points home page](assets/images/feature-second-image-words-page.png)
 
+### Features to implement
+- Contact page - we want to implement a contact page for users to contact the page for info on Hebrew language and civilization.
+- Resource page with info on resources people can use to learn Hebrew language. 
 
 ## Design
 
@@ -44,7 +47,7 @@ The project was deployed to GitHub Pages using the following steps:
 6.  The Page refreshes itself - message " Your site is ready to be published at https://shoshie-coding.github.io/project-1/. 
 7. Refresh page - notice message -  Your site is published at https://shoshie-coding.github.io/project-1/. 
 
-### Local Clone
+### Local Clon
 
 ## Credits 
 
@@ -55,7 +58,7 @@ The following resources were used as sources of information and inspiration for 
 
 - [Hebrew Language - Wikipedia article](https://en.wikipedia.org/wiki/Hebrew_language) - this article contains info on the Hebrew language and history. 
 
-- [Encyclopaedia Britannica]( https://www.britannica.com/topic/Hebrew-language) - this offers a short intro to the Hebrew language.
+- [Encyclopaedia Britannica](https://www.britannica.com/topic/Hebrew-language) - this offers a short intro to the Hebrew language.
 
 - [The Times of Israel article](https://blogs.timesofisrael.com/basic-hebrew-phrases-and-slang-you-should-know-in-israel/) with info on Israeli slang words. 
 
@@ -81,9 +84,15 @@ Inspiration for the table on the Alphabet page came from [W3 Schools article](ht
 [Article on how to design tables per per UX design rules](https://www.uxmatters.com/mt/archives/2020/07/designing-mobile-tables.php)
 
 ### Technologies
-Fonts were taken from [Google Fonts](https://fonts.google.com/)
+1. [Google Fonts](https://fonts.google.com/) was used to import fonts 'Montserrat'and 'Arima Madurai' that are used throughout the website. 
 
-I used [Adobe color](https://color.adobe.com/mythemes) to extract the colors used on the website. 
+2. [Adobe color](https://color.adobe.com/mythemes) was used to extract the colors used on the website. 
+3. [Git](https://git-scm.com/) was used to used to edit the code on the Gitpod terminal to commit to Git and Push to GitHub.
+4. [GitHub](https://github.com/) is used to store the project code after being pushed from Git. 
+
+
+[Normalize CSS was used to normalize CSS code and make it more consistent, this fixed the issue fbugs](https://necolas.github.io/normalize.css/)
+- when running the validation test, I didn't include the normaliza CSS code, I've only ran my own code. 
 
 
 ## Validator Testing
@@ -124,9 +133,26 @@ I tested my website on various browsers and screen sizes as shown below. The web
 - iPhone XS
 
 ### Bugs 
-- hen trying to validate my HTML code with W3C, tHebrew letters were not recognized as I was using vowels with them. I removed the vowels and it worked. There are limitations with adding several languages in the same code, there are a few options available out there but not many solutions when just adding words instead of sentences.
+- When trying to validate my HTML code with W3C, tHebrew letters were not recognized as I was using vowels with them. I removed the vowels and it worked. There are limitations with adding several languages in the same code, there are a few options available out there but not many solutions when just adding words instead of sentences.
 
-- Table on the Hebrew Alphabet page was too big for mobile
+- Browser is adding white margins on the sides - this is a known bug. I searched online and found this [Stack Overflow article](https://stackoverflow.com/questions/4612307/website-has-strange-whitespace-on-right-side-of-the-page-when-the-browser-is-res) that is taken from [Wernull blog](https://blog.wernull.com/2013/04/debug-ghost-css-elements-causing-unwanted-scrolling/)
+
+and applied the troubleshoorung steps:
+1. Implement the code at the end of the CSS file
+ * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+2. Go to the website and refresh
+3. Notice the white spaces on the margin - open inspect
+4. The rule set by user agent style sheet sets margin to 8px
+5. Notice I cannot test and change the margin on dev tools
+6. Search online and find out that this refers to the default styles that browsers apply to web pages
+7. Go to CSS files and remove code from step 1
+8. Add margin and set it to 0
+9. Refresh website and notice it fixed the issue - margin is not showing anymore. 
+
 
 
 

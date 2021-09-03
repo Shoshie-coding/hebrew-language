@@ -6,6 +6,7 @@ body {
     text-align: left;
     font-weight: 400;
     font-size: 100%;
+    margin: 0;
 }
 
 /* Header image */
@@ -380,6 +381,13 @@ tr:hover {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .main-container,
+    #container-words-page {
+        text-align: left;
+    }
+}
+
 @media screen and (max-width: 720px) {
     #alphabet-table {
         max-width: 450px;
@@ -421,3 +429,4 @@ tr:hover {
         text-align: center;
     }
 }
+
