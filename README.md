@@ -75,6 +75,8 @@ I tested my website on various browsers and screen sizes as shown below. The web
 - iPhone XS
 
 ### **Bugs** 
+#### Known Bug
+I manually tested this on a Lenovo tablet and a Samsung one, the header image on the Home page is not displaying. I cannot see this issue in Chrome in Dev tools, therefore at the moment I don't have a way to test this. 
 
 #### **Hebrew letters issue**
 - When trying to validate my HTML code with W3C, Hebrew letters were not recognized as I was using vowels with them.
@@ -103,6 +105,9 @@ I tested my website on various browsers and screen sizes as shown below. The web
   7. Go to CSS files and remove code from step 1.
   8. Add margin and set it to 0.
   9. Refresh website and notice it fixed the issue - margin is not showing anymore. 
+
+  #### **Hover border**
+  I removed the border for hover on screens smaller than 535px because it didn't look good on small screens.  
 
 ## **Deployment**
 ### GitHub Pages
