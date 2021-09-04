@@ -125,10 +125,6 @@ a:hover {
     margin: 0 auto;
 }
 
-#main-points ul {
-    list-style-type: none;
-}
-
 /* hebrew alphabet page */
 
 #alphabet-introduction {
@@ -145,14 +141,14 @@ a:hover {
 }
 
 /* hebrew alphabet table */
-
 #alphabet-table {
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     font-weight: 400;
-    font-size: 110%;
-    padding: 30px;
+    font-size: 120%;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 table {
@@ -166,21 +162,7 @@ td {
     margin-right: 10px;
     margin-bottom: 20px;
     letter-spacing: 3px;
-    margin-right: 10px;
     border: 1px solid #ddd;
-}
-
-th {
-    color: #0339A6;
-    font-weight: 600;
-}
-
-td {
-    font-weight: 400;
-}
-
-tr:nth-child(even) {
-    background-color: #F0F8FF;
 }
 
 tr:hover {
@@ -304,20 +286,6 @@ tr:hover {
         width: 100%;
         font-size: 30px;
     }
-
-    #div-home-image {
-        width: 120%;
-    }
-
-    #alphabet-picture {
-        margin: 10px;
-        padding: 10px 10px 0 0;
-    }
-
-    #alphabet-table {
-        max-width: 450px;
-        
-    }
 }
 
 @media screen and (max-width: 360px) {
@@ -337,36 +305,24 @@ tr:hover {
         float: none;
         margin: 0 40px 30px 30px;
     }
-}
-
-@media screen and (max-width: 535px) {
-    h1 {
-        margin: 65px 100px 50px 100px;
-    }
-
-    #menu a.active {
-        border: none;
-    }
-
-    #menu ul {
-        margin-left: 30px;
-
-    }
 
     #alphabet-table {
-        max-width: 450px;
-
+        width: 70px;
+        padding: 0;
+        margin: 5px;
     }
 }
+
 
 @media screen and (max-width: 470px) {
 
-    #home-image {
-        max-width: 70%;
+    .main-container,
+    #container-words-page {
+        text-align: left;
     }
 
-    #alphabet-picture {
-        width: 120%;
+    #home-image {
+        max-width: 90%;
     }
 
     h1 {
@@ -379,41 +335,47 @@ tr:hover {
     h2 {
         text-align: center;
     }
+
+    #main-points {
+        float: left;
+    }
+
+    #alphabet-picture {
+        width: 110%
+    }
+
 }
 
-@media screen and (max-width: 400px) {
-    .main-container,
-    #container-words-page {
-        text-align: left;
+@media screen and (max-width: 535px) {
+
+    h1 {
+        margin: 65px 100px 50px 100px;
+    }
+
+    #menu a.active {
+        border: none;
+    }
+
+    #menu ul {
+        margin-left: 60px;
+    }
+
+    #alphabet-table {
+        max-width: 150px;
+    }
+
+    th,
+    td {
+        padding: 5px;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 720px) {
-    #alphabet-table {
-        max-width: 450px;
-        overflow-x: scroll;
-    }
-
     h1 {
         text-align: center;
         font-size: 35px;
     }
-}
-
-@media screen and (max-width: 800px) {
-
-    #header-image {
-        background-image: url(../images/hebrew-writing-manuscript.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        width: 100%;
-        margin: 0;
-        max-height: 70%;
-        min-height: 300px;
-    }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -424,9 +386,4 @@ tr:hover {
         margin: 10px;
         padding: 20px;
     }
-
-    h1 {
-        text-align: center;
-    }
 }
-
