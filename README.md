@@ -44,7 +44,7 @@ The Navigation Bar is featured on all three pages, it includes links to Home pag
 - ### **Typography**
 For the main text, 'Montserrat' font is used with a fall-back on sans-serif. For headings, navigation bar and footer, 'Arima Madurai' font is used with a fallback on cursive.
 
-### **Technologies**
+## **Technologies**
 #### **Languages Used**
 - [HTML](https://en.wikipedia.org/wiki/HTML5) 
 - [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -79,7 +79,7 @@ The website passed the Lighthouse report for all pages
 
 
 ### **Responsiveness Test**
-- I used media queries to make my website responsive. 
+- I used media queries to make my website responsive and can confirm that the website is responsive on all the screen sizes and devices I used as well as various browsers as listed below. 
 
 ### **Browser compatibility**
 - I tested my website on various browsers and screen sizes as shown below. The website works well and is responsive on monitors and laptop screens. 
