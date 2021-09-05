@@ -125,7 +125,7 @@ a:hover {
     margin: 0 auto;
 }
 
-/* hebrew alphabet page */
+/* Hebrew alphabet page */
 
 #alphabet-introduction {
     width: 70%;
@@ -140,7 +140,7 @@ a:hover {
     border-radius: 5px;
 }
 
-/* hebrew alphabet table */
+/* Hebrew alphabet table */
 #alphabet-table {
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -313,7 +313,6 @@ tr:hover {
     }
 }
 
-
 @media screen and (max-width: 470px) {
 
     .main-container,
@@ -343,7 +342,6 @@ tr:hover {
     #alphabet-picture {
         width: 110%
     }
-
 }
 
 @media screen and (max-width: 535px) {
