@@ -56,7 +56,9 @@ The website passed all code validations
 ![HTML code validator](assets/images/html-validator-words.png)
 
 #### CSS code validator
-![CSS code validator](assets/images/css-code-validator-index.png)
+![HTML code validator](assets/images/css-validator-index.png)
+![HTML code validator](assets/images/css-validator-alphabet.png)
+![HTML code validator](assets/images/css-validator-words.png)
 
 #### Lighthouse report
 The website passed the Lighthouse report
