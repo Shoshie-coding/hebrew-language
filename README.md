@@ -33,11 +33,9 @@ The Navigation Bar is featured on all three pages, it includes links to Home pag
 - The **footer** that is visible on all pagesa and contains links to social media accounts and copyrights info. 
 ![Footer](assets/images/feature-footer.png)
 
-
 ### **Features left to implement**
 - Contact page - we want to implement a contact page for users to contact the page for info on Hebrew language and civilization and for Hebrew classes we are organising regularly.
 - Resource page with info on audio and video resources people can use to learn Hebrew language and articles.
-
 
 ## Design
 - ### **Color Theme and imagery**
@@ -45,6 +43,19 @@ The Navigation Bar is featured on all three pages, it includes links to Home pag
 
 - ### **Typography**
 For the main text, 'Montserrat' font is used with a fall-back on sans-serif. For headings, navigation bar and footer, 'Arima Madurai' font is used with a fallback on cursive.
+
+### **Technologies**
+#### **Languages Used**
+- [HTML](https://en.wikipedia.org/wiki/HTML5) 
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+#### **Frameworks, Libraries & Programs Used**
+
+1. [Google Fonts](https://fonts.google.com/) was used to import fonts 'Montserrat'and 'Arima Madurai' that are used throughout the website. 
+
+2. [Adobe color](https://color.adobe.com/mythemes) was used to extract the colors used on the website. 
+3. [Git](https://git-scm.com/) was used to used to edit the code on the Gitpod terminal, to commit to Git and Push to GitHub.
+
+4. [GitHub](https://github.com/) is used to store the project code after being pushed from Git. 
 
 ## **Testing**
 ### **Validator Testing**
@@ -90,6 +101,8 @@ The website passed the Lighthouse report for all pages
 - Huawei P30
 - iPhone 8
 - iPhone XS
+- Samsung tablet
+- Lenovo tablet
 
 ### **Bugs** 
 #### **Known Bug - header image on home page not displayed on tablet**
@@ -147,18 +160,6 @@ The project was deployed to GitHub Pages using the following steps:
 
 6. You will see a message confirmation that the command was successul. 
 
-### **Technologies**
-#### **Languages Used**
-- [HTML](https://en.wikipedia.org/wiki/HTML5) 
-- [CSS](https://en.wikipedia.org/wiki/CSS)
-#### **Frameworks, Libraries & Programs Used**
-
-1. [Google Fonts](https://fonts.google.com/) was used to import fonts 'Montserrat'and 'Arima Madurai' that are used throughout the website. 
-
-2. [Adobe color](https://color.adobe.com/mythemes) was used to extract the colors used on the website. 
-3. [Git](https://git-scm.com/) was used to used to edit the code on the Gitpod terminal, to commit to Git and Push to GitHub.
-
-4. [GitHub](https://github.com/) is used to store the project code after being pushed from Git. 
 
 ## **Credits**
 
