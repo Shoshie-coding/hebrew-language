@@ -56,12 +56,16 @@ The website passed all code validations
 ![HTML code validator](assets/images/html-validator-words.png)
 
 #### CSS code validator
-![HTML code validator](assets/images/css-validator-index.png)
-![HTML code validator](assets/images/css-validator-alphabet.png)
-![HTML code validator](assets/images/css-validator-words.png)
+![HTML code validator index page](assets/images/css-validator-index.png)
+![HTML code validator alphabet page](assets/images/css-validator-alphabet.png)
+![HTML code validator words page](assets/images/css-validator-words.png)
 
 #### Lighthouse report
-The website passed the Lighthouse report
+The website passed the Lighthouse report for all pages
+![Lighthouse report index page](assets/images/lighthouse-index.png)
+![Lighthouse report alphabet page](assets/images/lighthouse-alphabet.png)
+![Lighthouse report words page](assets/images/lighthouse-words.png)
+
 
 ### **Responsiveness Test**
 - I used media queries to make my website responsive. 
@@ -144,6 +148,11 @@ The project was deployed to GitHub Pages using the following steps:
 6. You will see a message confirmation that the command was successul. 
 
 ### **Technologies**
+#### **Languages Used**
+- [HTML](https://en.wikipedia.org/wiki/HTML5) 
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+#### **Frameworks, Libraries & Programs Used**
+
 1. [Google Fonts](https://fonts.google.com/) was used to import fonts 'Montserrat'and 'Arima Madurai' that are used throughout the website. 
 
 2. [Adobe color](https://color.adobe.com/mythemes) was used to extract the colors used on the website. 
@@ -167,7 +176,7 @@ The following resources were used as sources of information and inspiration for 
 ### **Media**
 Some pictures on my website are not from royalty free websites. This is a student website, my project is for educational purposes only. If I decide to make this a commercial website, I will change the pictures. The pictures are listed below in order of appearance on the website.
 
-- [Header image on Home page - free to download from Unspash](https://unsplash.com/photos/xUXGHzhIbN4)
+- [Header image on Home page - free download from Unspash](https://unsplash.com/photos/xUXGHzhIbN4)
 
 - Image of a Dead Sea Scrolls manuscript - [Lingualift](https://www.lingualift.com/blog/how-to-learn-hebrew-alphabet/) credited to [Facsimile finder](https://www.facsimilefinder.com/)
 
@@ -186,7 +195,7 @@ Some pictures on my website are not from royalty free websites. This is a studen
 - [Article on how to design tables per per UX design rules](https://www.uxmatters.com/mt/archives/2020/07/designing-mobile-tables.php)
 
 ## Acknowledgements
-My mentor for good feedback on my project and everyone at Code Institute who provided helpful tips along the way.  
+My mentor for feedback and guiding me throughout the process and everyone at Code Institute who provided helpful tips along the way.  
 
 
 
