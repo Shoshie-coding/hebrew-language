@@ -136,7 +136,7 @@ The website passed the Lighthouse report for all pages
   8. Add margin and set it to 0.
   9. Refresh website and notice it fixed the issue - margin is not showing anymore. 
 #### **Hover border**
-  I removed the border for hover on screens smaller than 535px because it didn't look good on small screens.  
+  I removed the navigation bar hover border on screens smaller than 535px as it didn't fit the smaller screens. 
 
 ## **Deployment**
 ### GitHub Pages
